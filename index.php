@@ -193,7 +193,7 @@ $app->delete("/carrinhoRemoveAll-:id_prod", function($id_prod){
 
 });
 
-$app->post("/carrinho-produto", function(){
+$app->PUT("/carrinho-produto", function(){
 
     $data = json_decode(file_get_contents("php://input"), true);
 
