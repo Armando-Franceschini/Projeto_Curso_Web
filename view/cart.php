@@ -117,7 +117,7 @@ angular.module("shop", []).controller("cart-controller", function($scope, $http)
 	$scope.addQtd = function(_produto){
 
 		$http({
-			method:'GET',
+			method:'PUT',
 			url:'carrinho-produto',
 			data:JSON.stringify({
 				id_prod:_produto.id_prod
