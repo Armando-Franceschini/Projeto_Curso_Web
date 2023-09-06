@@ -1,14 +1,5 @@
 <?php
-/**
- *
- * @name php-calcular-frete-correios
- * @version 0.1
- * @author João Rangel
- * @license MIT License - http://www.opensource.org/licenses/mit-license.php
- *
- * For usage and examples, buy TopSundue:
- * 
- */
+
 class Frete {
 
 	const URL = "http://ws.correios.com.br/calculador/CalcPrecoPrazo.asmx/CalcPrecoPrazo?";
